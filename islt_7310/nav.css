@@ -1,4 +1,4 @@
-ul li {
+nav ul li {
     display: inline-block;
     border: 2px solid black;
     width: 150px;
@@ -6,3 +6,15 @@ ul li {
     list-style-type: none;
     padding: 10px 10px 10px 10px;
     margin-top: 0px;}
+
+nav ul li ul {
+    display:none;
+    position:absolute;
+}
+nav ul li:hover ul {
+    display:block;}
+
+
+    
+
+
