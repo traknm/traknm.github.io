@@ -1,1 +1,12 @@
 h1 {color: #015ADF;}
+h4{font-size: 16px;}
+p {font-size: 14px;
+    margin-top: 0px;}
+#letter{font-size: 20px;
+        margin-bottom: 0px;}
+.tab {text-indent: 40px;}
+div {
+    width: 500px;
+    padding: 10px;
+    margin: 20px;
+  }
