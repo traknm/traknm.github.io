@@ -1,4 +1,4 @@
-h1 {color: #015ADF;
+h1 {color: #236699;
     text-align: center;}
 h4{font-size: 16px;
     text-align: center;
@@ -7,8 +7,11 @@ p {font-size: 14px;
     margin-top: 0px;
     text-align: center;
     }
-#letter{font-size: 20px;
-        margin-bottom: 0px;}
+#letter{font-size: 22px;
+        font-family: Georgia;
+        }
+
+
 .tab {text-indent: 40px;}
 
 div {
@@ -16,6 +19,12 @@ div {
     vertical-align:text-bottom;
     width: auto;
     margin: auto;
+    border: 2px dashed #AB6F16;
+    padding: 0px;
+  }
+
+  footer {
+      margin: 100px;
   }
 
   a {text-align: center;}
@@ -35,8 +44,25 @@ div {
       nav{
         margin: 0 auto;
         text-align: center;
-        font-size: 15px;
+        font-size: 18px;
+        
+      }
+  }
+
+  @media (max-width: 600px) {
+    div{
+        max-width: 400px;
     }
-    
-      
+    nav{
+        margin: 0 auto;
+        text-align: center;
+        font-size: 12px;
+      }
+  }
+
+  @media only screen and (max-width : 480px) {
+    nav {
+      text-align: center;
+      font-size: 10px;
+    }
   }
