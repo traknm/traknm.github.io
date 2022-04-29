@@ -143,6 +143,18 @@ img{
     max-height: 20px;
 }
 
+.big{
+    position: absolute;
+    width: 0px;
+    -webkit-transition: width 0.3s linear 0s;
+    transition: width 0.3s linear 0s; 
+    z-index: 10;
+}
+
+img:hover + .big{
+    width: 50px;
+}
+
 footer{
     color: black;
     background-image: url(footer1.jpeg);
