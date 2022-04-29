@@ -138,7 +138,7 @@ div {
 
 }
 
-img{
+.smol{
     max-width: 20px;
     max-height: 20px;
 }
@@ -151,7 +151,7 @@ img{
     z-index: 10;
 }
 
-img:hover + .big{
+.smol:hover + .big{
     width: 50px;
 }
 
