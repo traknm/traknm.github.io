@@ -137,3 +137,15 @@ div {
 
 
 }
+
+img{
+    max-width: 20px;
+    max-height: 20px;
+}
+
+footer{
+    color: black;
+    background-image: url(/Users/tommie/Desktop/islt_7310/images/footer1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
