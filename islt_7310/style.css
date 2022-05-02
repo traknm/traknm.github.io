@@ -1,13 +1,17 @@
+
 @font-face { 
 
     font-family: 'Oswald', sans-serif; /*this is where we give our font a name so we can use it! */
     
     src: url('Oswald-Regular.ttf'); /*remember this is how we link to files in CSS!*/ }
     
-h1 {color: #236699;
+
+    h1 {color: #236699;
     text-align: center;
     font-family: Oswald, sans-serif;
 }
+
+
 
 h4{font-size: 16px;
     text-align: center;
@@ -69,6 +73,9 @@ div {
         text-align: center;
         font-size: 12px;
       }
+      .m50{
+        max-width: 200px;
+    }
   }
 
   @media (max-width : 480px) {
@@ -81,6 +88,9 @@ div {
     }
     footer{
         min-width: 400px;
+    }
+    .m50{
+        max-width: 340px;
     }
   }
 
@@ -160,4 +170,22 @@ footer{
     background-image: url(footer1.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+h5{
+    font-size: 14px;
+}
+
+.m50{
+    position: relative;
+    max-width: 480px;
+    align-items: center;
+}
+
+.pond{
+    max-height: 400px;
+}
+
+.matrix{
+    max-width: 480px;
 }
