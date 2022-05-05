@@ -37,6 +37,11 @@ div {
     margin: auto;
     padding: 0px;
   }
+form{
+    text-align: center;
+    font-size: 15px;
+    
+}
 
   footer {
       margin: 100px;
@@ -77,6 +82,11 @@ div {
       }
       .m50{
         max-width: 200px;
+    }
+    form{
+        font-size: 11px;
+        max-width: 350px;
+        
     }
     
   }
