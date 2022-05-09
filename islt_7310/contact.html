@@ -28,6 +28,7 @@
     <link rel="shortcut icon" type="image/png" href="favicon.png">
 </head>
 <body>
+    <img class="hamburger" src="hamburger.png" alt="Hamburger Icon">
     <nav>
         <ul>
             <li>
@@ -38,10 +39,10 @@
             <li><a href="contact.html">Contact</a></li>
             <li><a href="project.html">Projects</a>
                 <ul> 
-                    <li><a href="#MizzouRec">MizzouRec</a></li>
-                    <li><a href="#MizzouFootball">Mizzou EQ</a></li>
-                    <li><a href="#BBall">March Madness</a></li>
-                    <li><a href="#Baseball">Baseball Salaries</a></li>
+                    <li><a href="contact.html#MizzouRec">MizzouRec</a></li>
+                    <li><a href="contact.html#MizzouFootball">Mizzou EQ</a></li>
+                    <li><a href="contact.html#BBall">March Madness</a></li>
+                    <li><a href="contact.html#Baseball">Baseball Salaries</a></li>
                 </ul>
             </li>
         </ul>
@@ -53,21 +54,19 @@
         <h4>
             Contact Page
         </h4>
-        <form>
+        <form action="mailto:traknm@umsystem.edu?Subject=Portfolio%20of%20Tommie%20Altvater" method="post" enctype="text/plain">
             <label for="fname">First Name</label>
-            <input type="text" name="fname" id="fname" placeholder="John"> <br>
-            <label for="lname">Last Name</label>
-            <input type="text" name="lname" id="lname" placeholder="Doe"> <br>
+            <input type="text" name="fname" id="fname" placeholder="John" required=""> <br>
+            <label for="lname">Last Name</label> 
+            <input type="text" name="lname" id="lname" placeholder="Doe" required=""> <br>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="email@gmail.com" required=""> <br> 
             <label for="message">Message</label> <br>
-            <textarea name="message" id="message" cols="30" rows="5"></textarea>
+            <textarea name="message" id="message" cols="30" rows="5" required=""></textarea>
             <br>
             <button type="reset">Reset</button>
             <button type="submit">Submit</button> <br>
-            <p>
-                Email Me!
-                <a href="mailto:traknm@umsystem.edu?Subject=Portfolio%20of%20Tommie%20Altvater" target="_top">
-                Send Mail</a>
-                </p>
+            
         </form>
     </main>
 </div>

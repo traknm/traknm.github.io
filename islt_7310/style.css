@@ -1,15 +1,11 @@
 
-@font-face { 
-
-    font-family: 'Oswald', sans-serif; 
-    
-    src: url('Oswald-Regular.ttf'); }
     
 
-    h1 {color: #236699;
+    h1 {color: #C2D9EA;
     text-align: center;
     font-family: Oswald, sans-serif;
 }
+body {background-color:#365166;}
 
 
 
@@ -17,26 +13,35 @@ h4{font-size: 16px;
     text-align: center;
         }
 
-p {font-size: 14px;
+p,li, #resume {font-size: 14px;
     margin-top: 0px;
-    text-align: center;
-    }
+    list-style-type: none;
 
-#letter{font-size: 22px;
-        font-family: Georgia;
-        }
+    }
 
 
 .tab {text-indent: 40px;}
 
+ul{
+    padding-left: 0px;
+}
+
 div {
     position: relative;
-    border: 2px dashed #AB6F16;
+    border: 3.5px dashed #E6CC63;
     vertical-align:text-bottom;
     width: auto;
     margin: auto;
     padding: 0px;
+    text-align: center;
+    background-color: #6EC2FF;
   }
+
+.headshot{
+    max-width: 200px;
+
+}
+
 form{
     text-align: center;
     font-size: 15px;
@@ -45,6 +50,7 @@ form{
 
   footer {
       margin: 100px;
+      text-align: center;
   }
 
   a {text-align: center;}
@@ -178,12 +184,7 @@ form{
     width: 50px;
 }
 
-footer{
-    color: black;
-    background-image: url(footer1.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 h5{
     font-size: 14px;
@@ -203,26 +204,7 @@ h5{
     max-width: 480px;
 }
 
-th{
-    color: red;
-    text-align: left;
-}
 
-table{
-    min-width: 200px;
-}
-
-table, th, td{
-    border: solid black;
-}
-
-tr:nth-child(even){
-    background-color: green;
-}
-
-tr:nth-child(odd){
-    background-color: turquoise;
-}
 
 @media (min-width: 600px) {
     p{
@@ -239,7 +221,5 @@ tr:nth-child(odd){
       text-align: center;
       font-size: 18px; 
     }
-    table{
-        width: 250px;
-    }
 }
+
