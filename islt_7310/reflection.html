@@ -63,6 +63,25 @@
         <h1> Portfolio of Tommie Altvater </h1></header>
     <main>
         <div>
+            <SCRIPT LANGUAGE="JavaScript">
+                
+                //Bread crumb script - Kevin Lynn Brown
+                //Duplicate directory names bug fix by JavaScriptKit.com
+                //Visit JavaScript Kit (http://javascriptkit.com) for script
+                
+                var path = "";
+                var href = document.location.href;
+                var s = href.split("/");
+                for (var i=2;i<(s.length-1);i++) {
+                path+="<A HREF=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i]+"</A> / ";
+                }
+                i=s.length-1;
+                path+="<A HREF=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</A>";
+                var url = window.location.protocol + "//" + path;
+                document.writeln(url);
+                </script>
+                
+                <p>This free script provided by <a href="http://javascriptkit.com">JavaScript Kit</a></p>
         <h4>
             Personal Reflection
         </h4>
@@ -76,7 +95,7 @@
             
             <p class="tab">At the time, I had no idea what Economics was but I did know that every book 
             I read about modern sports front office business was littered with “outsiders” 
-            who came in with degrees in Economics. In books like Moneyball and Astroball, smart 
+            who came in with degrees in Economics. In books like <em> Moneyball</em> and <em>Astroball</em>, smart 
             people finding success in sports by finding new ways to win using statistics and 
             economic decision making. I took my first Economics class in the Fall of 2020 and 
             loved it. I ended up adding a statistics minor, which ended up being a double major, 

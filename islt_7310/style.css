@@ -74,6 +74,7 @@ form{
       }
       table{
           width: 500px;
+          
       }
   }
 
@@ -92,8 +93,12 @@ form{
     form{
         font-size: 11px;
         max-width: 350px;
-        
     }
+    table{
+        font-size: 11px;
+        margin-left:120px;
+    }
+
     
   }
 
@@ -110,6 +115,10 @@ form{
     }
     .m50{
         max-width: 200px;
+    }
+    table{
+        text-align: center;
+        font-size: 10px;
     }
   }
 
